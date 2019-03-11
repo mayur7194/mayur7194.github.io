@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<title>Stock Prices</title>
+</head>
+<body>
+
+<form id="stock_form">
+	<input type="text" placeholder="Stock symbol" id="stock_name" name="stock_name">
+	<input type="button" value="Add" onclick="add_stock_symbol()">
+</form>
+
+<div id="display_stock_names" style="width: 500px"></div>
+<div id="chart_div" style="width:864px;text-align: center;"></div>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript" src="stocks.js"></script>
+
+</script>
+</body>
+</html>
+
